@@ -85,6 +85,18 @@ Note : \-\-gpus 0 means using cuda:0
 cd semantic-segmentation-pytorch
 python train.py --config config/ade20k-resnet101-upernet.yaml --gpus 0
 ```
+| Model | loss | accuracy | 
+|--|--|--|
+| model_0| 0.019 | 99.26 |
+| model_M | 0.022 | 99.14 |
+
+# Eval
+run the following command to evaluate performance in hw1_data and get result_smantic folder of predicted semantic image
+```
+cd semantic-segmentation-pytorch
+python eval_multipro --cfg config/ade20k-resnet101-upernet.yaml -- gpus 0
+```
+
 # Structure of directory
 ```
 habitat-lab
@@ -130,6 +142,13 @@ hw2
     +- floor2
       ......
   +- semantic-segmentation-pytorch
+    +- ckpt
+      +- apartment0-resnet101-upernet
+        +- epoch.pth
+        ......
+      +- apartmentM-resnet101-upernet
+        ......
+    ......
   +- data_collect.py
   +- data_generator.py
   +- img_to_odgt.py
