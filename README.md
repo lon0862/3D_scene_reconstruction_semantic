@@ -23,7 +23,7 @@ Note: using under code to install habitat_lab
 /home/{user_name}/anaconda3/envs/habitat/bin/pip install -e .
 ```
 - semantic-segmentation-pytorch
-download the link https://github.com/CSAILVision/semantic-segmentation-pytorch
+download from the link https://github.com/CSAILVision/semantic-segmentation-pytorch
 and select a model to train.<br>
 All pretrained models can be found at: http://sceneparsing.csail.mit.edu/model/pytorch
 Note: I choose ade20k-resnet101-upernet as my pretrained model.
