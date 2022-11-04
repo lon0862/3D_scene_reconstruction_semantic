@@ -18,7 +18,7 @@ The requirement of the development environments:
 - Habitat-lab and Habitat-sim
 following the link https://github.com/facebookresearch/habitat-lab
 to until Installation step3.<br>
-note: using under code to install habitat_lab
+Note: using under code to install habitat_lab
 ```
 /home/{user_name}/anaconda3/envs/habitat/bin/pip install -e .
 ```
@@ -44,7 +44,7 @@ office_1 : https://drive.google.com/file/d/1aNeYQ2W8d1g-qsOtdXUtzxpfkTKfILu7/vie
 
 # Data Collection
 auto collect data from dataset_folder, ex: env_apartment0, env_apartmentM, which has download data from above link.<br>
-note : need to change self.\_scenes in data_generator.py to which scenes you want to collect in dataset_folder
+Note : need to change self.\_scenes in data_generator.py to which scenes you want to collect in dataset_folder
 ```
 python data_generator.py --dataset_folder [dataset_folder] --output [Output folder] 
 ```
