@@ -5,9 +5,12 @@ In this repository, I complete 3D Semantic Map for the HW2 of Perception and Dec
 we will use two model to validate data collect from hw1 and reconstruct it, but in fact I have do some changing when collect semantic image. So just use data_collect.py to collect hw1_data.
 
 # Example Result:
-floor1 with apartment0:
-floor1 with apartmentM:
-3D scene of floor1 with apartment0:
+floor1 with apartment0:<br>
+![image](https://github.com/lon0862/3D_scene_reconstruction_semantic/blob/main/pictures/floor1_model0.png)<br>
+floor1 with apartmentM:<br>
+![image](https://github.com/lon0862/3D_scene_reconstruction_semantic/blob/main/pictures/floor1_modelM.png)<br>
+3D scene of floor1 with apartment0:<br>
+![image](https://github.com/lon0862/3D_scene_reconstruction_semantic/blob/main/pictures/floor1_model0_3d.png)<br>
 
 # Quick Start
 The requirement of the development environments:
