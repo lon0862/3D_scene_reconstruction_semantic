@@ -51,7 +51,7 @@ python data_generator.py --dataset_folder [dataset_folder] --output [Output fold
 run the following command and use WAD to move camera and auto save data. <br>
 rgb image, depth image, ground truth trajectory will auto save when you move.<br>
 F key will finish the program.<br>
-O key will clean all rgb image, depth image, ground truth trajectory saved before.<br>
+O key will clean all rgb image, depth image, ground truth trajectory saved before.<br><br>
 Note : You can change agent_state.position to set the agent in
 the first or second floor, (0, 0, 0) for first floor and (0, 1, 0) for
 second floor.
