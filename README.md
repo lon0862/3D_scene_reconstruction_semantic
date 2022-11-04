@@ -30,7 +30,7 @@ the first or second floor ( (0, 0, 0) for first floor and (0, 1, 0) for
 second floor.
 
 Download the apartmentM datasets from the link below.<br>
-(I use is apartment_1, apartment_2, frl_apartment_0, frl_apartment_1
+(I only use apartment_1, apartment_2, frl_apartment_0, frl_apartment_1)<br>
 apartment_1:https://drive.google.com/file/d/1xrBvrYvSI8vmAX5OiTtY1nDrm9bCpUpy/view?usp=sharing<br>
 apartment_2:https://drive.google.com/file/d/13wYbpZXR4YSLpxPSo2-O8cv0pYp1DFoE/view?usp=sharing<br>
 frl_apartment_0:https://drive.google.com/file/d/1_n5QL9nmwEz5zO3kuZvufoC23s_sluf1/view?usp=sharing<br>
