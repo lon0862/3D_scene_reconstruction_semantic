@@ -61,6 +61,8 @@ Note : You can change agent_state.position to set the agent in
 the first or second floor, (0, 0, 0) for first floor and (0, 1, 0) for
 second floor.
 ```
+conda activate habitat
+cd hw2
 python data_collect.py
 ```
 use following command to get odgt files for each folder we collect data, ex: img_apartment0, img_apartmentM, hw1_data<br>
@@ -78,7 +80,7 @@ need change in yaml :<br>
 5. val's check_point : "epoch_60.pth"
 
 using the following command to train model.<br>  
--- gpus 0 means using cuda:0<br>
+Note : \-\-gpus 0 means using cuda:0
 ```
 cd semantic-segmentation-pytorch
 python train.py --config config/ade20k-resnet101-upernet.yaml --gpus 0
