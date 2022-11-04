@@ -30,24 +30,14 @@ the first or second floor ( (0, 0, 0) for first floor and (0, 1, 0) for
 second floor.
 
 Download the apartmentM datasets from the link below.<br>
-
-apartment_1:
-https://drive.google.com/file/d/1xrBvrYvSI8vmAX5OiTtY1nDrm9bCpUpy/view?usp=sharing
-apartment_2:
-https://drive.google.com/file/d/13wYbpZXR4YSLpxPSo2-O8cv0pYp1DFoE/view?usp=sharing
-frl_apartment_0:
-https://drive.google.com/file/d/1_n5QL9nmwEz5zO3kuZvufoC23s_sluf1/view?usp=sharing
-frl_apartment_1:
-https://drive.google.com/file/d/1WfOAvTF0H6fVxpMXLNbCBk7xqCcV9e0q/view?usp=sharing
-frl_apartment_1.zip
-room_0:
-https://drive.google.com/file/d/16jI_peN1fJrRKDp38YzzM-x5GzZNstuS/view?usp=sharing
-room_1:
-https://drive.google.com/file/d/1y04o5kG-7uJ8JLw5lXGS20m_-sEb1Epv/view?usp=sharing
-room_2:
-https://drive.google.com/file/d/1Xmqbw0RabdpnUxTtsMTWf9-h7CPGf9Yg/view?usp=sharing
-hotel_0:
-https://drive.google.com/file/d/1Lv0QgkyLnAefS0RsYEV5KUJyw4C5Cwmu/view?usp=sharing
-office_0:https://drive.google.com/file/d/1-xRcBM5eBu-OZ0bZa1Dmt8OnHIIo1UyF/view?usp=sharing
-office_1:
-https://drive.google.com/file/d/1aNeYQ2W8d1g-qsOtdXUtzxpfkTKfILu7/view?usp=sharing
+(I use is apartment_1, apartment_2, frl_apartment_0, frl_apartment_1
+apartment_1:https://drive.google.com/file/d/1xrBvrYvSI8vmAX5OiTtY1nDrm9bCpUpy/view?usp=sharing<br>
+apartment_2:https://drive.google.com/file/d/13wYbpZXR4YSLpxPSo2-O8cv0pYp1DFoE/view?usp=sharing<br>
+frl_apartment_0:https://drive.google.com/file/d/1_n5QL9nmwEz5zO3kuZvufoC23s_sluf1/view?usp=sharing<br>
+frl_apartment_1:https://drive.google.com/file/d/1WfOAvTF0H6fVxpMXLNbCBk7xqCcV9e0q/view?usp=sharing<br>
+room_0:https://drive.google.com/file/d/16jI_peN1fJrRKDp38YzzM-x5GzZNstuS/view?usp=sharing<br>
+room_1:https://drive.google.com/file/d/1y04o5kG-7uJ8JLw5lXGS20m_-sEb1Epv/view?usp=sharing<br>
+room_2:https://drive.google.com/file/d/1Xmqbw0RabdpnUxTtsMTWf9-h7CPGf9Yg/view?usp=sharing<br>
+hotel_0:https://drive.google.com/file/d/1Lv0QgkyLnAefS0RsYEV5KUJyw4C5Cwmu/view?usp=sharing<br>
+office_0:https://drive.google.com/file/d/1-xRcBM5eBu-OZ0bZa1Dmt8OnHIIo1UyF/view?usp=sharing<br>
+office_1:https://drive.google.com/file/d/1aNeYQ2W8d1g-qsOtdXUtzxpfkTKfILu7/view?usp=sharing<br>
