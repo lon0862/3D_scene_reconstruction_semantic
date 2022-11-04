@@ -104,6 +104,12 @@ python eval_multipro --cfg config/ade20k-resnet101-upernet.yaml -- gpus 0
 | model_0_floor2 | 0.6293 | 89.20% |
 | model_M_floor2 | 0.2257 | 67.89% |
 
+# Reconstruct 3D Semantic Map
+```
+cd ..
+python 3d_semantic_map.py
+```
+
 # Structure of directory
 ```
 habitat-lab
