@@ -41,3 +41,53 @@ room_2 : https://drive.google.com/file/d/1Xmqbw0RabdpnUxTtsMTWf9-h7CPGf9Yg/view?
 hotel_0 : https://drive.google.com/file/d/1Lv0QgkyLnAefS0RsYEV5KUJyw4C5Cwmu/view?usp=sharing<br>
 office_0 : https://drive.google.com/file/d/1-xRcBM5eBu-OZ0bZa1Dmt8OnHIIo1UyF/view?usp=sharing<br>
 office_1 : https://drive.google.com/file/d/1aNeYQ2W8d1g-qsOtdXUtzxpfkTKfILu7/view?usp=sharing<br>
+
+# Structure of directory
+```
+hw2
+  +- env_apartment0
+    +- apartment_0
+  +- env_apartmentM
+    +- apartment_1
+    +- apartment_2
+    +- frl_apartment_0
+    +- frl_apartment_1
+  +- img_apartment0
+    +- annotations
+      +- test
+      +- train
+      +- val
+    +- images 
+      ......
+    +- depth
+      ......
+    +- metal_training.odgt
+    +- metal_validation.odgt
+  +- img_apartmentM
+    ......
+  +- hw1_data
+    +- floor1
+      +- annotations
+        +- semantic_0.png
+        .....
+      +- depth
+        +- depth_0.png
+        ......
+      +- images
+        +- rgb_0.png
+        ......
+      +- result_smantic_apartment0
+        +- semantic_0.png
+        ......
+      +- result_smantic_apartmentM
+        ......
+      +- hw1_floor1.odgt
+    +- floor2
+      ......
+  +- semantic-segmentation-pytorch
+  +- data_collect.py
+  +- data_generator.py
+  +- img_to_odgt.py
+  +-  3d_semantic_map.py
+  
+```
