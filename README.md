@@ -25,7 +25,7 @@ Note: using under code to install habitat_lab
 - semantic-segmentation-pytorch<br>
 download from the link https://github.com/CSAILVision/semantic-segmentation-pytorch
 and select a model to train.<br>
-All pretrained models can be found at: http://sceneparsing.csail.mit.edu/model/pytorch
+All pretrained models can be found at: http://sceneparsing.csail.mit.edu/model/pytorch<br>
 Note: I choose ade20k-resnet101-upernet as my pretrained model.
 # Download Data
 Download the apartment0 datasets from the link below.<br>
