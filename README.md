@@ -91,6 +91,7 @@ python train.py --config config/ade20k-resnet101-upernet.yaml --gpus 0
 | model_M | 0.022 | 99.14% |
 
 # Eval
+use following link to download color101.mat for color mapping : https://drive.google.com/file/d/16zKgIURN6kh2IeYGJGJTyYeVhv0lISAN/view<br>
 run the following command to evaluate performance in hw1_data and get result_smantic folder of predicted semantic image
 ```
 cd semantic-segmentation-pytorch
@@ -148,6 +149,8 @@ hw2
     +- floor2
       ......
   +- semantic-segmentation-pytorch
+    +- data
+      +- color101.mat
     +- ckpt
       +- apartment0-resnet101-upernet
         +- epoch.pth
