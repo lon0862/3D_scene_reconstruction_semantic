@@ -43,7 +43,7 @@ office_0 : https://drive.google.com/file/d/1-xRcBM5eBu-OZ0bZa1Dmt8OnHIIo1UyF/vie
 office_1 : https://drive.google.com/file/d/1aNeYQ2W8d1g-qsOtdXUtzxpfkTKfILu7/view?usp=sharing<br>
 
 # Data Collection
-auto collect data from dataset_folder, ex: env_apartment0, env_apartmentM, which has download data from above link.<br>
+auto collect data from dataset_folder, ex: env_apartment0, env_apartmentM, which has download data from above link.<br><br>
 Note : need to change self.\_scenes in data_generator.py to which scenes you want to collect in dataset_folder
 ```
 python data_generator.py --dataset_folder [dataset_folder] --output [Output folder] 
