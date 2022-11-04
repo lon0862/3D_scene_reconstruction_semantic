@@ -42,6 +42,12 @@ hotel_0 : https://drive.google.com/file/d/1Lv0QgkyLnAefS0RsYEV5KUJyw4C5Cwmu/view
 office_0 : https://drive.google.com/file/d/1-xRcBM5eBu-OZ0bZa1Dmt8OnHIIo1UyF/view?usp=sharing<br>
 office_1 : https://drive.google.com/file/d/1aNeYQ2W8d1g-qsOtdXUtzxpfkTKfILu7/view?usp=sharing<br>
 
+# Data Collection
+auto collect data from dataset_folder, ex: env_apartment0, env_apartmentM, which has download data from above link.
+note : need to change self.\_scenes
+```
+python data_generator.py --dataset_folder [dataset_folder] --output [Output folder] 
+```
 # Structure of directory
 ```
 hw2
