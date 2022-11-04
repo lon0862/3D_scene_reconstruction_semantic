@@ -46,9 +46,9 @@ office_1 : https://drive.google.com/file/d/1aNeYQ2W8d1g-qsOtdXUtzxpfkTKfILu7/vie
 auto collect data from dataset_folder, ex: env_apartment0, env_apartmentM, which has download data from above link.<br>
 Note : need to change self.\_scenes in data_generator.py to which scenes you want to collect in dataset_folder
 ```
-python data_generator.py --dataset_folder [dataset_folder] --output [Output folder] 
+python data_generator.py --dataset_folder [dataset_folder] --output [output folder] 
 ```
-run the following command and use WAD to move camera and auto save data. <br>
+run the following command and use WAD to move camera and auto save data in hw1_data <br>
 rgb image, depth image, ground truth trajectory will auto save when you move.<br>
 F key will finish the program.<br>
 O key will clean all rgb image, depth image, ground truth trajectory saved before.<br>
@@ -57,6 +57,11 @@ the first or second floor, (0, 0, 0) for first floor and (0, 1, 0) for
 second floor.
 ```
 python data_collect.py
+```
+use following command to get odgt files for each folder we collect data, ex: img_apartment0, img_apartmentM, hw1_data<br>
+Note : need to change some variables in the file to decide which data folder to get odgt file.
+```
+python img_to_odgt.py
 ```
 # Structure of directory
 ```
