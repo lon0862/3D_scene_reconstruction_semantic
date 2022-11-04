@@ -15,14 +15,14 @@ The requirement of the development environments:
 - Python 3.6, 3.7 ( You can use conda to create new environment )
 - opencv-contrib-python
 - Open3d
-- Habitat-lab and Habitat-sim
+- Habitat-lab and Habitat-sim<br>
 following the link https://github.com/facebookresearch/habitat-lab
 to until Installation step3.<br>
 Note: using under code to install habitat_lab
 ```
 /home/{user_name}/anaconda3/envs/habitat/bin/pip install -e .
 ```
-- semantic-segmentation-pytorch
+- semantic-segmentation-pytorch<br>
 download from the link https://github.com/CSAILVision/semantic-segmentation-pytorch
 and select a model to train.<br>
 All pretrained models can be found at: http://sceneparsing.csail.mit.edu/model/pytorch
