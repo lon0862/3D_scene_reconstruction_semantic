@@ -68,6 +68,21 @@ Note : need to change some variables in the file to decide which data folder to 
 ```
 python img_to_odgt.py
 ```
+
+# Train Model
+need change in yaml :<br>
+1. root_dataset means where train dataset's root dataset is.
+2. num_class : 101 (because hw1_data only use 101 label of semantic)，then go to model.py revise part in build_decoder, only load weight have same shape in pretrained model.<br>
+3. start_epoch : 50 (because pretrained model's ckpt is 50)<br>
+4. num_epoch actullay is end epoch, num_epoch - start_epoch equal to how many epoch you want to train.<br>
+5. val's check_point : "epoch_60.pth"
+
+using the following command to train model.<br>  
+-- gpus 0 means using cuda:0<br>
+```
+cd semantic-segmentation-pytorch
+python train.py --config config/ade20k-resnet101-upernet.yaml --gpus 0
+```
 # Structure of directory
 ```
 habitat-lab
