@@ -17,19 +17,19 @@ The requirement of the development environments:
 - Open3d
 - Habitat-lab and Habitat-sim
 following the link https://github.com/facebookresearch/habitat-lab
-to until Installation step3.<br><br>
+to until Installation step3.<br>
 Note: using under code to install habitat_lab
 ```
 /home/{user_name}/anaconda3/envs/habitat/bin/pip install -e .
 ```
 # Download Data
 Download the apartment0 datasets from the link below.<br>
-Apartment_0 : https://drive.google.com/file/d/1zHA2AYRtJOmlRaHNuXOvC_OaVxHe56M4/view?usp=sharing<br><br>
+Apartment_0 : https://drive.google.com/file/d/1zHA2AYRtJOmlRaHNuXOvC_OaVxHe56M4/view?usp=sharing<br>
 Note : You can change agent_state.position to set the agent in
 the first or second floor ( (0, 0, 0) for first floor and (0, 1, 0) for
 second floor.
 
-Download the apartmentM datasets from the link below.<br><br>
+Download the apartmentM datasets from the link below.<br>
 Note : I only use apartment_1, apartment_2, frl_apartment_0, frl_apartment_1<br>
 apartment_1 : https://drive.google.com/file/d/1xrBvrYvSI8vmAX5OiTtY1nDrm9bCpUpy/view?usp=sharing<br>
 apartment_2 : https://drive.google.com/file/d/13wYbpZXR4YSLpxPSo2-O8cv0pYp1DFoE/view?usp=sharing<br>
@@ -43,7 +43,7 @@ office_0 : https://drive.google.com/file/d/1-xRcBM5eBu-OZ0bZa1Dmt8OnHIIo1UyF/vie
 office_1 : https://drive.google.com/file/d/1aNeYQ2W8d1g-qsOtdXUtzxpfkTKfILu7/view?usp=sharing<br>
 
 # Data Collection
-auto collect data from dataset_folder, ex: env_apartment0, env_apartmentM, which has download data from above link.<br><br>
+auto collect data from dataset_folder, ex: env_apartment0, env_apartmentM, which has download data from above link.<br>
 Note : need to change self.\_scenes in data_generator.py to which scenes you want to collect in dataset_folder
 ```
 python data_generator.py --dataset_folder [dataset_folder] --output [Output folder] 
@@ -51,7 +51,7 @@ python data_generator.py --dataset_folder [dataset_folder] --output [Output fold
 run the following command and use WAD to move camera and auto save data. <br>
 rgb image, depth image, ground truth trajectory will auto save when you move.<br>
 F key will finish the program.<br>
-O key will clean all rgb image, depth image, ground truth trajectory saved before.<br><br>
+O key will clean all rgb image, depth image, ground truth trajectory saved before.<br>
 Note : You can change agent_state.position to set the agent in
 the first or second floor, (0, 0, 0) for first floor and (0, 1, 0) for
 second floor.
