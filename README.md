@@ -85,10 +85,10 @@ Note : \-\-gpus 0 means using cuda:0
 cd semantic-segmentation-pytorch
 python train.py --config config/ade20k-resnet101-upernet.yaml --gpus 0
 ```
-| Model | loss | accuracy | 
+| Model | Loss | Accuracy | 
 |--|--|--|
-| model_0| 0.019 | 99.26 |
-| model_M | 0.022 | 99.14 |
+| model_0| 0.019 | 99.26% |
+| model_M | 0.022 | 99.14% |
 
 # Eval
 run the following command to evaluate performance in hw1_data and get result_smantic folder of predicted semantic image
@@ -96,6 +96,12 @@ run the following command to evaluate performance in hw1_data and get result_sma
 cd semantic-segmentation-pytorch
 python eval_multipro --cfg config/ade20k-resnet101-upernet.yaml -- gpus 0
 ```
+| Model | Mean IoU | Accuracy | 
+|--|--|--|
+| model_0_floor1 | 0.5424 | 88.86% |
+| model_M_floor1 | 0.1171 | 41.23% |
+| model_0_floor2 | 0.6293 | 89.20% |
+| model_M_floor2 | 0.2257 | 67.89% |
 
 # Structure of directory
 ```
