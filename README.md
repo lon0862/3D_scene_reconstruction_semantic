@@ -60,6 +60,8 @@ python data_collect.py
 ```
 # Structure of directory
 ```
+habitat-lab
+  ......
 hw2
   +- env_apartment0
     +- apartment_0
